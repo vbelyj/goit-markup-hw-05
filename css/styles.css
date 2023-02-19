@@ -100,7 +100,7 @@ body {
   line-height: 1.5;
 }
 
-.card.content .text {
+.people.list .card.content .text {
   margin-bottom: 8px;
 }
 
@@ -176,7 +176,6 @@ body {
   height: 4px;
   background-color: var(--active-button-color);
   border-radius: 2px;
-  /* opacity: 1; */
 }
 
 /* adress */
@@ -302,7 +301,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   fill: rgb(0, 0, 0);
 
-  transition-property: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -390,7 +389,7 @@ body {
 
   background-size: contain;
 
-  transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social.list .item .link:hover,
@@ -427,7 +426,7 @@ body {
   background-repeat: no-repeat;
   color: var(--subtitle-text);
 
-  transition-property: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -478,7 +477,7 @@ body {
   box-shadow: none;
 }
 .btn {
-  transition-property: border, color, background-color, cursor, box-shadow;
+  transition-property: border, color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
